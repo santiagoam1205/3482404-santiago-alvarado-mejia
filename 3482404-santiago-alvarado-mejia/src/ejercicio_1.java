@@ -8,6 +8,18 @@ public class ejercicio_1 {
         int pares=0;
         int impares=0;
 
+        for (int i=0 ; i<n; ++i){
+            numeros [i]= Integer.parseInt(JOptionPane.showInputDialog("ingrese el numero " + (i+1) + ": "));
+        }
+        for (int i=0; i< numeros.length;++i){
+            if (numeros[i] %2==0){
+                pares++;
+            }else {
+                impares++;
+            }
+        }
+        JOptionPane.showMessageDialog(null,"Cantidad de numeros pares:" + pares + "\n Catidad de numeros impares:" + impares);
+
 
     }
 }
