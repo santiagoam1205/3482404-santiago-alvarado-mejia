@@ -17,7 +17,6 @@ public class ejercicio_2 {
             JOptionPane.showMessageDialog(null,"promedio del curso " + promedio + "\nEstado Reprobado");
         }else {
             JOptionPane.showMessageDialog(null,"Promedio del curso " + promedio + "\nEstado Aprobado");
-        } }else if (promedio !=1){
-        JOptionPane.showMessageDialog(null,"Promedio del curso " + promedio + "\nEstado Aprobado");
+        }
     }
 }
