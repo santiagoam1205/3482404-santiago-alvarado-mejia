@@ -5,7 +5,7 @@ public class ejercicio_3 {
 
         int n= Integer.parseInt(JOptionPane.showInputDialog("¿Cuantos numeros va ingresar?"));
         int[] numeros= new int[n];
-        int salchipapa= 24000;
+
 
         for (int i = 0; i <n; i++){
             numeros[i]=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el numero " + (i +1) + ": "));
