@@ -22,5 +22,6 @@ public class ejercicio_4 {
                 resultado += temperaturas[i] + "°C - templado\n";
             }
         }
+        JOptionPane.showMessageDialog(null,resultado);
     }
 }
